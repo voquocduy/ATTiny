@@ -32,8 +32,8 @@ uint64_t millis() {
 
 void setup(void) {
   // LED IO
-  DDRB |= _BV(PB3); // set LED pin as output
-  PORTB |= _BV(PB3); // turn the LED on
+  DDRB |= _BV(PB1); // set LED pin as output
+  PORTB |= _BV(PB1); // turn the LED on
 
   // prescale timer0 to 1/8th the clock rate
   // overflow timer0 every 0.256 ms
